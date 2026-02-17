@@ -23,7 +23,63 @@ The objective of this process was to:
 | License | Cleaned | Removed extra spaces for deduplication. Standardized entries like "Exempt" and "Not Provided". Filtered invalid placeholders (e.g., "ABCD 1234..."). |
 | Listing Name | Cleaned | Fixed spacing between numbers and text ("50M2" → "50 M2"). Replaced "M2" with proper square meter symbol (M²). |
 
-## 2. Handling Missing Values Strategy
+## 2. Data Quality Checks: Duplicates, Blanks, and Null Values
+
+A comprehensive data quality audit was performed across all columns to identify and correct duplicates, blank cells, and null values.
+
+### Duplicate Detection and Removal
+
+**Process:**
+- Checked all columns for duplicate records based on unique identifiers (ID, Host ID)
+- Identified duplicate entries across multiple columns
+- Removed exact duplicate rows to maintain data integrity
+- Preserved the most complete record when partial duplicates were found
+
+**Actions Taken:**
+- Scanned entire dataset for duplicate IDs
+- Removed complete duplicate rows
+- Verified uniqueness of primary keys after cleaning
+
+### Blank and Null Value Detection
+
+**Process:**
+- Systematically checked every cell in all columns for blank values
+- Identified null values represented in various formats (empty cells, "NULL", "N/A", "#N/A")
+- Categorized missing values by column type (numeric, text, categorical)
+
+**Columns Checked:**
+- ID / Host ID
+- Listing Title
+- Host Name
+- Neighbourhood
+- Price
+- License
+- Room Type
+- Days Available Per Year
+- All other dataset columns
+
+**Correction Strategy:**
+- **Numeric Columns:** Missing values replaced using median imputation (as detailed in Section 2)
+- **Categorical Columns:** Missing values filled using mode or logical inference
+- **Text Columns:** Blank values standardized to "Not Provided" or inferred from related columns
+- **Geographic Data:** Missing neighbourhood values inferred from listing titles and descriptions
+
+**Outcome:**
+- All blank cells identified and addressed
+- Null values standardized and corrected
+- Data completeness improved across all columns
+- No critical columns left with missing values that would impact analysis
+
+### Data Completeness Summary
+
+After cleaning:
+- Duplicate records removed
+- Blank cells filled or standardized
+- Null values handled appropriately
+- All columns validated for data quality
+- Dataset ready for analysis and visualization
+
+## 3. Handling Missing Values Strategy
 
 ### Why Median?
 
@@ -47,7 +103,7 @@ This ensures:
 - Budget areas stay budget
 - Premium zones retain premium pricing behavior
 
-## 3. Engineered Features (Calculated Columns)
+## 4. Engineered Features (Calculated Columns)
 
 To analyze commercial performance, the following features were created:
 
@@ -128,7 +184,7 @@ Used to analyze:
 - Demand elasticity across price segments
 - Revenue distribution by category
 
-## 4. Data Aggregations for Dashboard
+## 5. Data Aggregations for Dashboard
 
 After feature engineering, Pivot Tables were used to generate Key Performance Indicators (KPIs).
 
@@ -142,7 +198,7 @@ After feature engineering, Pivot Tables were used to generate Key Performance In
 | Average Estimated Revenue | Average | Average earning per listing |
 | Total Estimated Revenue | Sum | Total revenue contribution by zone |
 
-## 5. Dashboard Impact
+## 6. Dashboard Impact
 
 These transformations power:
 
