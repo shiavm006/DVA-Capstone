@@ -1,0 +1,80 @@
+                               Average price by NeighbourHood,,,,
+,,,,
+Neighbourhood,AVERAGE of Price,COUNT of ID,AVERAGE of Estimated Revenue,AVERAGE of Occupancy Rate
+Bijlmer-Centrum,€126.91,65,"€34,968.64",65.84%
+Bijlmer-Oost,€151.26,38,"€42,533.79",80.88%
+Bos en Lommer,€196.38,538,"€56,934.91",81.80%
+Buitenveldert - Zuidas,"€2,058.11",124,"€86,088.91",64.02%
+Centrum-Oost,€284.20,916,"€65,470.73",63.90%
+Centrum-West,€296.78,1200,"€69,103.75",67.88%
+De Aker - Nieuw Sloten,€175.94,63,"€42,123.60",69.88%
+De Baarsjes - Oud-West,€261.55,1792,"€72,502.58",77.69%
+De Pijp - Rivierenbuurt,€267.89,1180,"€69,418.44",73.29%
+Gaasperdam - Driemond,€138.93,60,"€37,496.37",70.42%
+Geuzenveld - Slotermeer,€201.57,134,"€53,540.24",70.91%
+IJburg - Zeeburgereiland,"€1,090.26",185,"€291,658.88",76.04%
+Noord-Oost,€189.16,188,"€48,966.55",72.64%
+Noord-West,€195.77,292,"€54,150.24",75.34%
+Oostelijk Havengebied - Indische Buurt,€209.53,431,"€59,569.90",79.60%
+Osdorp,€171.47,55,"€42,526.48",69.40%
+Oud-Noord,€291.16,485,"€69,577.33",78.22%
+Oud-Oost,€239.15,648,"€66,120.53",78.47%
+Slotervaart,€191.48,204,"€56,550.14",81.45%
+Watergraafsmeer,€237.14,309,"€67,079.09",77.75%
+Westerpark,€239.63,726,"€65,599.39",78.02%
+Zuid,€280.89,728,"€70,505.23",73.13%
+,,,,
+                                      Average price by Room Type,,,,
+,,,,
+Room Type,AVERAGE of Price,COUNT of ID,AVERAGE of Occupancy Rate,AVERAGE of Estimated Revenue
+Entire home/apt,€292.14,8446,78.14%,"€77,928.10"
+Hotel room,"€4,742.55",49,39.19%,"€107,150.07"
+Private room,€165.96,1835,57.89%,"€34,090.74"
+Shared room,€128.94,31,68.02%,"€26,307.35"
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+                                                   Price vs Occupancy,,,,
+,,,,
+Price Range,COUNT of ID,AVERAGE of Occupancy Rate,,
+€0 - €100,416,63.54%,,
+€100 - €200,2734,69.64%,,
+€200 - €300,4564,84.38%,,
+€300 - €500,1588,67.12%,,
+€500+,331,44.68%,,
+,,,,
+,,,,
+,,,,
+,,,,
+                                              Revenue by Neighbourhood,,,,
+,,,,
+,,,,
+Neighbourhood,AVERAGE of Estimated Revenue,SUM of Estimated Revenue,COUNT of ID,
+Bijlmer-Centrum,"€34,968.64","€2,272,961.50",65,
+Bijlmer-Oost,"€42,533.79","€1,616,284.00",38,
+Bos en Lommer,"€56,934.91","€30,630,980.00",538,
+Buitenveldert - Zuidas,"€86,088.91","€10,675,025.00",124,
+Centrum-Oost,"€65,470.73","€59,971,190.50",916,
+Centrum-West,"€69,103.75","€82,924,505.50",1200,
+De Aker - Nieuw Sloten,"€42,123.60","€2,653,787.00",63,
+De Baarsjes - Oud-West,"€72,502.58","€129,924,627.00",1792,
+De Pijp - Rivierenbuurt,"€69,418.44","€81,913,764.00",1180,
+Gaasperdam - Driemond,"€37,496.37","€2,249,782.00",60,
+Geuzenveld - Slotermeer,"€53,540.24","€7,174,392.00",134,
+IJburg - Zeeburgereiland,"€291,658.88","€53,956,892.00",185,
+Noord-Oost,"€48,966.55","€9,205,712.00",188,
+Noord-West,"€54,150.24","€15,811,871.00",292,
+Oostelijk Havengebied - Indische Buurt,"€59,569.90","€25,674,629.00",431,
+Osdorp,"€42,526.48","€2,338,956.50",55,
+Oud-Noord,"€69,577.33","€33,745,007.00",485,
+Oud-Oost,"€66,120.53","€42,846,101.00",648,
+Slotervaart,"€56,550.14","€11,536,228.00",204,
+Watergraafsmeer,"€67,079.09","€20,727,439.00",309,
+Westerpark,"€65,599.39","€47,625,159.00",726,
+Zuid,"€70,505.23","€51,327,806.00",728,
