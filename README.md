@@ -4,7 +4,7 @@
 
 ---
 
-![Dashboard Preview](dashboard-preview.png)
+![Dashboard Preview](Dashboard/Dashboard.png)
 
 ---
 
