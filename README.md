@@ -173,7 +173,7 @@ The [Google Sheets Dashboard](https://docs.google.com/spreadsheets/d/1OnKfcSwHCB
 - Geographic revenue map
 - Interactive filters (Room Type & Neighbourhood)
 
-> **Google Sheet Name:** DVA_Capstone(G-7)
+> **Google Sheet Name:** DVA_Capstone(G-7) 
 
 ---
 
